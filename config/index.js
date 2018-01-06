@@ -1,3 +1,6 @@
 module.exports = {
-	staticPath:"./static"
+	staticPath:"./static",
+	server:{
+		port:3000
+	}
 };

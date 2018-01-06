@@ -1,21 +1,36 @@
 const Router = require('koa-router');
 
-const router = new Router();
+	const router = new Router();
 
-router.get('/', (ctx, next) => {
-	ctx.body = `<p>index</p>`;
-});
+	router.get('/', (ctx, next) => {
+		ctx.body = `<p>index</p>`;
+	});
 
-router.get('/home', async (ctx, next) => {
-	ctx.body = `
-		<script src="/js/tmpl.min.js"></script>
-		<img src="/images/head.jpg" alt="" width="100" height="100">
-		<form method="post" action="/index/home">
-			<input type="text" name="name">
-			<input type="text" name="age">
-			<button>submit</button>
-		</form>
-	`;
+	router.get('/home', async (ctx, next) => {
+
+		ctx.cookies.set('laosiji','gaoshiqing');
+
+		ctx.render('/index/index',{
+			list:[
+				{
+					title:'title1',
+					content:'content1'
+				},{
+					title:'title2',
+					content:'content2'
+				},{
+					title:'title3',
+					content:'content3'
+				},{
+					title:'title4',
+					content:'content4'
+				},{
+					title:'title5',
+					content:'content5'
+				}
+			]
+		});
+
 }).post('/home', async (ctx, next) => {
 
 	const request = ctx.request,

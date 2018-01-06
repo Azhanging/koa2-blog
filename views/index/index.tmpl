@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>
+            <%= data.title %>
+        </title>
+    </head>
+    <body>
+        <ul>
+            <% data.list.forEach(function(item,index){ %>
+                <li><%= item.title %> , <%= item.content %></li>
+            <%});%>
+            <% data.list.forEach(function(item,index){ %>
+            <li><%= item.title %> , <%= item.content %></li>
+            <%});%><% data.list.forEach(function(item,index){ %>
+            <li><%= item.title %> , <%= item.content %></li>
+            <%});%>
+            <% data.list.forEach(function(item,index){ %>
+            <li><%= item.title %>,<%= item.content %></li>
+            <%});%>
+        </ul>
+        <div class="row">
+            <%= data.a %> , <%= data.b %>
+        </div>
+    </body>
+</html>
