@@ -5,18 +5,15 @@ const Koa = require('koa');
 //解析post中的数据
 const bodyParser = require('koa-bodyparser');
 
-//jade模板
-const pug = require('pug');
+const tmplViews = require('blue-tmpl-views');
 
-const ejs = require('ejs');
-
-const tmplViews = require('./blue-tmpl');
+const tmplConfig = require('./config/tmpl-config');
 
 //views
 const views = require('koa-views');
 
 //static静态资源的分配
-const static = require('koa-static');
+const koaStatic = require('koa-static');
 
 //配置文件
 const config = require('./config');
@@ -32,23 +29,19 @@ const session = require('koa-session2');
 //创建koa实例
 const app = new Koa();
 
-// mongo(app);
+//模板的配置
+tmplConfig();
 
 //引入bodyparser的中间件
 app.use(bodyParser());
 
 //配置blue-tmpl
-tmplViews(app,{
+app.use(tmplViews({
 	path:'./views'
-});
-
-//
-// app.use(session({
-// 	key: 'laosiji'
-// }));
+}));
 
 //引入static的中间件
-app.use(static(path.join(__dirname, config.staticPath)));
+app.use(koaStatic(path.join(__dirname, config.staticPath)));
 
 //路由
 app.use(router.routes());

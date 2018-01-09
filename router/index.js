@@ -28,7 +28,9 @@ const Router = require('koa-router');
 					title:'title5',
 					content:'content5'
 				}
-			]
+			],
+			a:'1',
+			b:4
 		});
 
 }).post('/home', async (ctx, next) => {

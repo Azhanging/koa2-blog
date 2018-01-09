@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/app.js" line="50" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/app.js" line="43" mnemonic="9" />
     <bookmark url="file://$PROJECT_DIR$/router/index.js" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c0f871a-da55-4a2c-967b-9927223fe6b0" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change beforePath="$PROJECT_DIR$/config/index.js" afterPath="$PROJECT_DIR$/config/index.js" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/router/index.js" afterPath="$PROJECT_DIR$/router/index.js" />
-      <change beforePath="$PROJECT_DIR$/static/js/tmpl.min.js" afterPath="$PROJECT_DIR$/static/js/tmpl.min.js" />
-    </list>
+    <list default="true" id="0c0f871a-da55-4a2c-967b-9927223fe6b0" name="默认的" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -24,25 +17,222 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3986691">
+    <splitter split-orientation="horizontal" split-proportion="0.35563752">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/router/index.js">
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="121">
-                  <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+                <state relative-caret-position="-209">
+                  <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app.js">
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node_modules/.6.1.3@koa-views/src/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="140">
-                  <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+                <state relative-caret-position="191">
+                  <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node_modules/.0.15.0@consolidate/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="consolidate.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node_modules/.0.15.0@consolidate/lib/consolidate.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="173">
+                  <caret line="87" column="14" lean-forward="false" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="14" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/router/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="460">
+                  <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node_modules/.3.2.1@koa-compose/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="253">
+                  <caret line="43" column="23" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+                  <folding>
+                    <marker date="1515470312221" expanded="true" signature="54:83" ph="/** Expose compositor. ...*/" />
+                    <marker date="1515470312221" expanded="true" signature="111:293" ph="/** Compose `middleware` returning ...*/" />
+                    <marker date="1515470312221" expanded="true" signature="325:1188" ph="{...}" />
+                    <marker date="1515470312221" expanded="true" signature="450:554" ph="{...}" />
+                    <marker date="1515470312221" expanded="true" signature="558:636" ph="/** @param {Object} context ...*/" />
+                    <marker date="1515470312221" expanded="true" signature="672:1186" ph="{...}" />
+                    <marker date="1515470312221" expanded="true" signature="774:1182" ph="{...}" />
+                    <marker date="1515470312221" expanded="true" signature="1003:1119" ph="{...}" />
+                    <marker date="1515470312221" expanded="true" signature="1065:1109" ph="{...}" />
+                    <marker date="1515470312221" expanded="true" signature="1132:1176" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="router.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node_modules/.7.3.0@koa-router/lib/router.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="184">
+                  <caret line="344" column="15" lean-forward="false" selection-start-line="344" selection-start-column="15" selection-end-line="344" selection-end-column="15" />
+                  <folding>
+                    <marker date="1515470311993" expanded="true" signature="0:156" ph="/** RESTful resource routing middleware for koa. ...*/" />
+                    <marker date="1515470311993" expanded="true" signature="347:376" ph="/** @module koa-router ...*/" />
+                    <marker date="1515470311993" expanded="true" signature="404:899" ph="/** Create a new router. ...*/" />
+                    <marker date="1515470311993" expanded="true" signature="923:1193" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="958:992" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="1058:1150" ph="[...]" />
+                    <marker date="1515470311993" expanded="true" signature="1196:4325" ph="/** Create `router.verb()` methods, where *verb* is one of the HTTP verbs such ...*/" />
+                    <marker date="1515470311993" expanded="true" signature="4361:4788" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="4426:4785" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="4509:4577" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="4583:4689" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="4737:4761" ph="{&quot;name&quot;: name...}" />
+                    <marker date="1515470311993" expanded="true" signature="4909:5582" ph="/** Use given middleware. ...*/" />
+                    <marker date="1515470311993" expanded="true" signature="5619:6630" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="5826:5963" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="5867:5939" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="6031:6067" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="6103:6610" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="6123:6515" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="6177:6348" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="6377:6509" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="6437:6499" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="6521:6606" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="6633:6845" ph="/** Set the path prefix for a Router instance that was already initialized. ...*/" />
+                    <marker date="1515470311993" expanded="true" signature="6891:7054" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="7000:7034" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="7057:7166" ph="/** Returns router middleware which dispatches a route matching the request. ...*/" />
+                    <marker date="1515470311993" expanded="true" signature="7236:8365" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="7306:8315" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="7522:7586" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="7592:7633" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="7895:7956" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="8018:8261" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="8056:8214" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="8368:9655" ph="/** Returns separate middleware for responding to `OPTIONS` requests with ...*/" />
+                    <marker date="1515470311993" expanded="true" signature="9710:11522" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="9818:11519" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="9854:11513" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="9926:11507" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="9973:10088" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="10025:10076" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="10187:10717" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="10218:10605" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="10323:10457" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="10463:10550" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="10611:10707" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="10746:11499" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="10788:10911" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="10943:11489" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="10976:11369" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="11083:11219" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="11225:11314" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="11375:11477" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="11525:11764" ph="/** Register route with all methods. ...*/" />
+                    <marker date="1515470311993" expanded="true" signature="11823:12129" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="11876:11940" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="11946:12044" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="12089:12109" ph="{&quot;name&quot;: name...}" />
+                    <marker date="1515470311993" expanded="true" signature="12132:12675" ph="/** Redirect `source` to `destination` URL with optional 30x status `code`. ...*/" />
+                    <marker date="1515470311993" expanded="true" signature="12742:13067" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="12802:12838" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="12908:12954" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="12997:13063" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="13070:13304" ph="/** Create and register a route. ...*/" />
+                    <marker date="1515470311993" expanded="true" signature="13377:14239" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="13504:13633" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="13536:13609" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="13704:13985" ph="{&quot;name&quot;: opts.name...}" />
+                    <marker date="1515470311993" expanded="true" signature="14013:14057" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="14141:14190" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="14242:14337" ph="/** Lookup route with given `name`. ...*/" />
+                    <marker date="1515470311993" expanded="true" signature="14380:14566" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="14459:14547" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="14512:14543" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="14569:15105" ph="/** Generate URL for route. Takes a route name and map of named `params`. ...*/" />
+                    <marker date="1515470311993" expanded="true" signature="15154:15364" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="15202:15305" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="15367:15594" ph="/** Match given `path` and return corresponding routes. ...*/" />
+                    <marker date="1515470311993" expanded="true" signature="15645:16169" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="15703:15762" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="15818:16148" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="15923:16144" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="16030:16138" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="16172:16892" ph="/** Run middleware for named route parameters. Useful for auto-loading or ...*/" />
+                    <marker date="1515470311993" expanded="true" signature="16948:17083" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="17023:17064" ph="{...}" />
+                    <marker date="1515470311993" expanded="true" signature="17086:17357" ph="/** Generate URL from url pattern and given `params`. ...*/" />
+                    <marker date="1515470311993" expanded="true" signature="17395:17457" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node_modules/.4.0.0@koa-compose/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="267">
+                  <caret line="41" column="30" lean-forward="false" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="30" />
+                  <folding>
+                    <marker date="1515470312817" expanded="true" signature="14:43" ph="/** Expose compositor. ...*/" />
+                    <marker date="1515470312817" expanded="true" signature="71:253" ph="/** Compose `middleware` returning ...*/" />
+                    <marker date="1515470312817" expanded="true" signature="285:1148" ph="{...}" />
+                    <marker date="1515470312817" expanded="true" signature="410:514" ph="{...}" />
+                    <marker date="1515470312817" expanded="true" signature="518:596" ph="/** @param {Object} context ...*/" />
+                    <marker date="1515470312817" expanded="true" signature="632:1146" ph="{...}" />
+                    <marker date="1515470312817" expanded="true" signature="734:1142" ph="{...}" />
+                    <marker date="1515470312817" expanded="true" signature="963:1079" ph="{...}" />
+                    <marker date="1515470312817" expanded="true" signature="1025:1069" ph="{...}" />
+                    <marker date="1515470312817" expanded="true" signature="1092:1136" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node_modules/.4.0.2@koa-static/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="184">
+                  <caret line="52" column="14" lean-forward="false" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+                  <folding>
+                    <marker date="1515470311916" expanded="true" signature="15:46" ph="/** Module dependencies. ...*/" />
+                    <marker date="1515470311916" expanded="true" signature="196:224" ph="/** Expose `serve()`. ...*/" />
+                    <marker date="1515470311916" expanded="true" signature="250:382" ph="/** Serve static files from `root`. ...*/" />
+                    <marker date="1515470311916" expanded="true" signature="412:1417" ph="{...}" />
+                    <marker date="1515470311916" expanded="true" signature="676:1040" ph="{...}" />
+                    <marker date="1515470311916" expanded="true" signature="722:1036" ph="{...}" />
+                    <marker date="1515470311916" expanded="true" signature="805:981" ph="{...}" />
+                    <marker date="1515470311916" expanded="true" signature="819:879" ph="{...}" />
+                    <marker date="1515470311916" expanded="true" signature="892:973" ph="{...}" />
+                    <marker date="1515470311916" expanded="true" signature="928:963" ph="{...}" />
+                    <marker date="1515470311916" expanded="true" signature="1000:1030" ph="{...}" />
+                    <marker date="1515470311916" expanded="true" signature="1084:1415" ph="{...}" />
+                    <marker date="1515470311916" expanded="true" signature="1288:1333" ph="{...}" />
+                    <marker date="1515470311916" expanded="true" signature="1346:1411" ph="{...}" />
+                    <marker date="1515470311916" expanded="true" signature="1378:1405" ph="{...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -51,34 +241,77 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/blue-tmpl/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="304">
-                  <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="index.tmpl" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/index/index.tmpl">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="342">
-                  <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+                <state relative-caret-position="285">
+                  <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="17" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/node_modules/.1.0.6@blue-tmpl/index.js">
+            <entry file="file://$PROJECT_DIR$/node_modules/.1.0.1@blue-tmpl-views/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="19">
-                  <caret line="1" column="44" lean-forward="false" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="2" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="blue-tmpl-views.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/blue-tmpl-views.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="171">
+                  <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="265" pinned="false" current-in-tab="false">
+            <entry file="mock://vm:265">
+              <provider selected="true" editor-type-id="vmFileEditor">
+                <state />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="fs.js" pinned="false" current-in-tab="false">
+            <entry file="mock://fs.js">
+              <provider selected="true" editor-type-id="vmFileEditor">
+                <state />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="async_hooks.js" pinned="false" current-in-tab="false">
+            <entry file="mock://async_hooks.js">
+              <provider selected="true" editor-type-id="vmFileEditor">
+                <state />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="bootstrap_node.js" pinned="false" current-in-tab="false">
+            <entry file="mock://bootstrap_node.js">
+              <provider selected="true" editor-type-id="vmFileEditor">
+                <state />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="events.js" pinned="false" current-in-tab="false">
+            <entry file="mock://events.js">
+              <provider selected="true" editor-type-id="vmFileEditor">
+                <state />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="router.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/router.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-8">
+                  <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -91,6 +324,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Blue Tmpl" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -99,6 +333,17 @@
     <findStrings>
       <find>engine</find>
       <find>render</find>
+      <find>tmpl</find>
+      <find>this.middleware</find>
+      <find>router</find>
+      <find>routes</find>
+      <find>alias</find>
+      <find>fs.read</find>
+      <find>read</find>
+      <find>module.export</find>
+      <find>requires</find>
+      <find>requires.jade</find>
+      <find>read(</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -108,6 +353,7 @@
     <setting file="file://$PROJECT_DIR$/router/index.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/views/index/index.tmpl" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/app.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/node_modules/.1.0.1@blue-tmpl-views/index.js" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -115,17 +361,25 @@
         <option value="$PROJECT_DIR$/router/index/index.js" />
         <option value="$PROJECT_DIR$/config.js" />
         <option value="$PROJECT_DIR$/router.js" />
-        <option value="$PROJECT_DIR$/config/index.js" />
         <option value="$PROJECT_DIR$/config/db-config.js" />
         <option value="$PROJECT_DIR$/static/js/tmpl.min.js" />
         <option value="$PROJECT_DIR$/mongodb/index.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/node_modules/.6.1.3@koa-views/src/index.js" />
         <option value="$PROJECT_DIR$/tmpl/index.js" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/blue-tmpl/index.js" />
+        <option value="$PROJECT_DIR$/views/public/layout.tmpl" />
         <option value="$PROJECT_DIR$/views/index/index.tmpl" />
         <option value="$PROJECT_DIR$/router/index.js" />
+        <option value="$PROJECT_DIR$/blue-tmpl/index.js" />
+        <option value="$PROJECT_DIR$/config/index.js" />
+        <option value="$PROJECT_DIR$/config/tmpl-config.js" />
+        <option value="$PROJECT_DIR$/blue-tmpl-views/node_modules/blue-tmpl/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/.1.0.6@blue-tmpl/index.js" />
+        <option value="$PROJECT_DIR$/blue-tmpl-views/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/tab.html" />
+        <option value="$PROJECT_DIR$/node_modules/.1.0.1@blue-tmpl-views/index.js" />
+        <option value="$PROJECT_DIR$/blue-tmpl-views.js" />
       </list>
     </option>
   </component>
@@ -145,8 +399,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="170" />
-    <option name="y" value="54" />
+    <option name="x" value="370" />
+    <option name="y" value="12" />
     <option name="width" value="1400" />
     <option name="height" value="995" />
   </component>
@@ -185,8 +439,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,33 +446,31 @@
               <item name="study-koa" type="b2602c69:ProjectViewProjectNode" />
               <item name="study-koa" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="study-koa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study-koa" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="D:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/WWW/dajiankang" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\achang\study-koa2\static\js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\achang\study-koa2\static\images" />
       <recent name="D:\achang\study-koa2\config" />
       <recent name="D:\achang\study-koa2\router" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\achang\study-koa2\static\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -263,11 +513,19 @@
       <workItem from="1515131821355" duration="9609000" />
       <workItem from="1515200304784" duration="11568000" />
       <workItem from="1515218998127" duration="3210000" />
+      <workItem from="1515229474760" duration="11000" />
+      <workItem from="1515374861031" duration="9148000" />
+      <workItem from="1515393683007" duration="3750000" />
+      <workItem from="1515460268050" duration="1303000" />
+      <workItem from="1515462299648" duration="1247000" />
+      <workItem from="1515463575784" duration="2539000" />
+      <workItem from="1515466185373" duration="2681000" />
+      <workItem from="1515478376546" duration="12093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53793000" />
+    <option name="totallyTimeSpent" value="86565000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -280,18 +538,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12908325" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15173867" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3470982" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27901787" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3013393" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.265625" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36049107" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -299,6 +557,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
@@ -317,8 +576,23 @@
           <line>11</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/.7.3.0@koa-router/lib/router.js</url>
+          <line>582</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/blue-tmpl-views/node_modules/blue-tmpl/dist/js/tmpl.js</url>
+          <line>555</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../blue-tmpl-views/index.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="63" />
+      <option name="time" value="112" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="NodeJSConfigurationType">
@@ -328,90 +602,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/.3.2.1@koa-compose/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="817">
@@ -426,24 +616,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/.3.2.1@koa-compose/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="1425" column="4" lean-forward="false" selection-start-line="1425" selection-start-column="4" selection-end-line="1425" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -470,42 +646,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/.7.3.0@koa-router/lib/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="331" column="31" lean-forward="false" selection-start-line="331" selection-start-column="31" selection-end-line="331" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/pug/examples/code.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/pug/examples/attributes.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/pug/lib/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285">
-          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/pug/examples/code.pug" />
+    <entry file="file://$PROJECT_DIR$/node_modules/pug/examples/attributes.pug" />
+    <entry file="file://$PROJECT_DIR$/node_modules/pug/lib/index.js" />
     <entry file="file://$PROJECT_DIR$/config/db-config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -513,40 +656,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/.0.15.0@consolidate/lib/consolidate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31475">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/.0.15.0@consolidate/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="34" lean-forward="true" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/.2.4.1@koa/lib/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="147" column="33" lean-forward="false" selection-start-line="147" selection-start-column="33" selection-end-line="147" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mongodb/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="51" lean-forward="false" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/tmpl.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="732">
           <caret line="9" column="6749" lean-forward="false" selection-start-line="9" selection-start-column="6749" selection-end-line="9" selection-end-column="6749" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -564,20 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/.4.2.0@koa-bodyparser/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="85" column="10" lean-forward="false" selection-start-line="85" selection-start-column="10" selection-end-line="85" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/.0.7.1@cookies/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
@@ -592,13 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/.6.1.3@koa-views/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/.2.2.5@koa-session2/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -606,58 +698,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/.2.4.1@koa/lib/request.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2283">
-          <caret line="140" column="4" lean-forward="false" selection-start-line="140" selection-start-column="4" selection-end-line="140" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/.1.0.0@delegates/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="71" column="4" lean-forward="false" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/.4.0.2@koa-static/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="43" column="10" lean-forward="false" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/.4.0.0@koa-compose/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="41" column="8" lean-forward="false" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/.1.0.6@blue-tmpl/dist/js/tmpl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="37810">
           <caret line="1998" column="15" lean-forward="false" selection-start-line="1998" selection-start-column="9" selection-end-line="1998" selection-end-column="15" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/.1.0.6@blue-tmpl/dist/js/tmpl.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="262">
+          <caret line="9" column="5823" lean-forward="false" selection-start-line="9" selection-start-column="5818" selection-end-line="9" selection-end-column="5823" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/config/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        <state relative-caret-position="209">
+          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/public/layout.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue-tmpl-views/node_modules/blue-tmpl/dist/js/tmpl.js" />
+    <entry file="file://$PROJECT_DIR$/blue-tmpl-views/node_modules/blue-tmpl/index.js" />
+    <entry file="file://$PROJECT_DIR$/blue-tmpl-views/node_modules/.1.0.6@blue-tmpl/dist/js/tmpl.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/.2.4.1@koa/lib/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2052">
+          <caret line="108" column="14" lean-forward="false" selection-start-line="108" selection-start-column="14" selection-end-line="108" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/tmpl-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue-tmpl-views/index.js" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -665,33 +765,296 @@
     <entry file="file://$PROJECT_DIR$/node_modules/.1.0.6@blue-tmpl/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="44" lean-forward="false" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+          <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongodb/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="51" lean-forward="false" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/.1.0.1@blue-tmpl-views/.idea/blue-tmpl-views.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/cookies/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2375">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blue-tmpl-views/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-112">
+          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/.1.0.0@delegates/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="71" column="4" lean-forward="false" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/.2.4.1@koa/lib/request.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="118" column="16" lean-forward="false" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tab.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index/index.tmpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        <state relative-caret-position="285">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="17" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blue-tmpl/index.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/.4.2.0@koa-bodyparser/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="11">
+          <caret line="63" column="39" lean-forward="true" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/.0.15.0@consolidate/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/.6.1.3@koa-views/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/.0.15.0@consolidate/lib/consolidate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="87" column="14" lean-forward="false" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-209">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/.4.0.2@koa-static/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="52" column="14" lean-forward="false" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+          <folding>
+            <marker date="1515470311916" expanded="true" signature="15:46" ph="/** Module dependencies. ...*/" />
+            <marker date="1515470311916" expanded="true" signature="196:224" ph="/** Expose `serve()`. ...*/" />
+            <marker date="1515470311916" expanded="true" signature="250:382" ph="/** Serve static files from `root`. ...*/" />
+            <marker date="1515470311916" expanded="true" signature="412:1417" ph="{...}" />
+            <marker date="1515470311916" expanded="true" signature="676:1040" ph="{...}" />
+            <marker date="1515470311916" expanded="true" signature="722:1036" ph="{...}" />
+            <marker date="1515470311916" expanded="true" signature="805:981" ph="{...}" />
+            <marker date="1515470311916" expanded="true" signature="819:879" ph="{...}" />
+            <marker date="1515470311916" expanded="true" signature="892:973" ph="{...}" />
+            <marker date="1515470311916" expanded="true" signature="928:963" ph="{...}" />
+            <marker date="1515470311916" expanded="true" signature="1000:1030" ph="{...}" />
+            <marker date="1515470311916" expanded="true" signature="1084:1415" ph="{...}" />
+            <marker date="1515470311916" expanded="true" signature="1288:1333" ph="{...}" />
+            <marker date="1515470311916" expanded="true" signature="1346:1411" ph="{...}" />
+            <marker date="1515470311916" expanded="true" signature="1378:1405" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/.7.3.0@koa-router/lib/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="344" column="15" lean-forward="false" selection-start-line="344" selection-start-column="15" selection-end-line="344" selection-end-column="15" />
+          <folding>
+            <marker date="1515470311993" expanded="true" signature="0:156" ph="/** RESTful resource routing middleware for koa. ...*/" />
+            <marker date="1515470311993" expanded="true" signature="347:376" ph="/** @module koa-router ...*/" />
+            <marker date="1515470311993" expanded="true" signature="404:899" ph="/** Create a new router. ...*/" />
+            <marker date="1515470311993" expanded="true" signature="923:1193" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="958:992" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="1058:1150" ph="[...]" />
+            <marker date="1515470311993" expanded="true" signature="1196:4325" ph="/** Create `router.verb()` methods, where *verb* is one of the HTTP verbs such ...*/" />
+            <marker date="1515470311993" expanded="true" signature="4361:4788" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="4426:4785" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="4509:4577" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="4583:4689" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="4737:4761" ph="{&quot;name&quot;: name...}" />
+            <marker date="1515470311993" expanded="true" signature="4909:5582" ph="/** Use given middleware. ...*/" />
+            <marker date="1515470311993" expanded="true" signature="5619:6630" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="5826:5963" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="5867:5939" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="6031:6067" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="6103:6610" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="6123:6515" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="6177:6348" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="6377:6509" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="6437:6499" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="6521:6606" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="6633:6845" ph="/** Set the path prefix for a Router instance that was already initialized. ...*/" />
+            <marker date="1515470311993" expanded="true" signature="6891:7054" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="7000:7034" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="7057:7166" ph="/** Returns router middleware which dispatches a route matching the request. ...*/" />
+            <marker date="1515470311993" expanded="true" signature="7236:8365" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="7306:8315" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="7522:7586" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="7592:7633" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="7895:7956" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="8018:8261" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="8056:8214" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="8368:9655" ph="/** Returns separate middleware for responding to `OPTIONS` requests with ...*/" />
+            <marker date="1515470311993" expanded="true" signature="9710:11522" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="9818:11519" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="9854:11513" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="9926:11507" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="9973:10088" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="10025:10076" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="10187:10717" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="10218:10605" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="10323:10457" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="10463:10550" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="10611:10707" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="10746:11499" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="10788:10911" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="10943:11489" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="10976:11369" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="11083:11219" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="11225:11314" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="11375:11477" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="11525:11764" ph="/** Register route with all methods. ...*/" />
+            <marker date="1515470311993" expanded="true" signature="11823:12129" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="11876:11940" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="11946:12044" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="12089:12109" ph="{&quot;name&quot;: name...}" />
+            <marker date="1515470311993" expanded="true" signature="12132:12675" ph="/** Redirect `source` to `destination` URL with optional 30x status `code`. ...*/" />
+            <marker date="1515470311993" expanded="true" signature="12742:13067" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="12802:12838" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="12908:12954" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="12997:13063" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="13070:13304" ph="/** Create and register a route. ...*/" />
+            <marker date="1515470311993" expanded="true" signature="13377:14239" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="13504:13633" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="13536:13609" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="13704:13985" ph="{&quot;name&quot;: opts.name...}" />
+            <marker date="1515470311993" expanded="true" signature="14013:14057" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="14141:14190" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="14242:14337" ph="/** Lookup route with given `name`. ...*/" />
+            <marker date="1515470311993" expanded="true" signature="14380:14566" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="14459:14547" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="14512:14543" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="14569:15105" ph="/** Generate URL for route. Takes a route name and map of named `params`. ...*/" />
+            <marker date="1515470311993" expanded="true" signature="15154:15364" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="15202:15305" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="15367:15594" ph="/** Match given `path` and return corresponding routes. ...*/" />
+            <marker date="1515470311993" expanded="true" signature="15645:16169" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="15703:15762" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="15818:16148" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="15923:16144" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="16030:16138" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="16172:16892" ph="/** Run middleware for named route parameters. Useful for auto-loading or ...*/" />
+            <marker date="1515470311993" expanded="true" signature="16948:17083" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="17023:17064" ph="{...}" />
+            <marker date="1515470311993" expanded="true" signature="17086:17357" ph="/** Generate URL from url pattern and given `params`. ...*/" />
+            <marker date="1515470311993" expanded="true" signature="17395:17457" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/.3.2.1@koa-compose/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="43" column="23" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+          <folding>
+            <marker date="1515470312221" expanded="true" signature="54:83" ph="/** Expose compositor. ...*/" />
+            <marker date="1515470312221" expanded="true" signature="111:293" ph="/** Compose `middleware` returning ...*/" />
+            <marker date="1515470312221" expanded="true" signature="325:1188" ph="{...}" />
+            <marker date="1515470312221" expanded="true" signature="450:554" ph="{...}" />
+            <marker date="1515470312221" expanded="true" signature="558:636" ph="/** @param {Object} context ...*/" />
+            <marker date="1515470312221" expanded="true" signature="672:1186" ph="{...}" />
+            <marker date="1515470312221" expanded="true" signature="774:1182" ph="{...}" />
+            <marker date="1515470312221" expanded="true" signature="1003:1119" ph="{...}" />
+            <marker date="1515470312221" expanded="true" signature="1065:1109" ph="{...}" />
+            <marker date="1515470312221" expanded="true" signature="1132:1176" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/.4.0.0@koa-compose/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="41" column="30" lean-forward="false" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="30" />
+          <folding>
+            <marker date="1515470312817" expanded="true" signature="14:43" ph="/** Expose compositor. ...*/" />
+            <marker date="1515470312817" expanded="true" signature="71:253" ph="/** Compose `middleware` returning ...*/" />
+            <marker date="1515470312817" expanded="true" signature="285:1148" ph="{...}" />
+            <marker date="1515470312817" expanded="true" signature="410:514" ph="{...}" />
+            <marker date="1515470312817" expanded="true" signature="518:596" ph="/** @param {Object} context ...*/" />
+            <marker date="1515470312817" expanded="true" signature="632:1146" ph="{...}" />
+            <marker date="1515470312817" expanded="true" signature="734:1142" ph="{...}" />
+            <marker date="1515470312817" expanded="true" signature="963:1079" ph="{...}" />
+            <marker date="1515470312817" expanded="true" signature="1025:1069" ph="{...}" />
+            <marker date="1515470312817" expanded="true" signature="1092:1136" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        <state relative-caret-position="460">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/.1.0.1@blue-tmpl-views/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue-tmpl-views.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
           <folding />
         </state>
       </provider>
