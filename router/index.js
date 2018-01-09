@@ -10,7 +10,7 @@ const Router = require('koa-router');
 
 		ctx.cookies.set('laosiji','gaoshiqing');
 
-		ctx.render('/index/index',{
+		await ctx.render('/index/index',{
 			list:[
 				{
 					title:'title1',

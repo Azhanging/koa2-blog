@@ -57,3 +57,7 @@ typings/
 # dotenv environment variables file
 .env
 
+*.xml
+*.xml
+*.xml
+*.xml

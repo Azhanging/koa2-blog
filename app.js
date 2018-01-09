@@ -5,7 +5,7 @@ const Koa = require('koa');
 //解析post中的数据
 const bodyParser = require('koa-bodyparser');
 
-const tmplViews = require('blue-tmpl-views');
+const tmplViews = require('./blue-tmpl-views');
 
 const tmplConfig = require('./config/tmpl-config');
 
