@@ -3,19 +3,19 @@
 
 <tmpl-block name="body">
     <ul>
-        <% data.list.forEach(function(item,index){ %>
+        <% state.list.forEach(function(item,index){ %>
         <li><%= item.title %> , <%= item.content %></li>
         <%});%>
-        <% data.list.forEach(function(item,index){ %>
+        <% state.list.forEach(function(item,index){ %>
         <li><%= item.title %> , <%= item.content %></li>
-        <%});%><% data.list.forEach(function(item,index){ %>
+        <%});%><% state.list.forEach(function(item,index){ %>
         <li><%= item.title %> , <%= item.content %></li>
         <%});%>
-        <% data.list.forEach(function(item,index){ %>
+        <% state.list.forEach(function(item,index){ %>
         <li><%= item.title %>,<%= item.content %></li>
         <%});%>
     </ul>
     <div class="row">
-        <%= data.a %> , <%= data.b %>
+        <%= state.a %> , <%= state.b %>
     </div>
 </tmpl-block>
