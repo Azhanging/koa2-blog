@@ -1,0 +1,13 @@
+<tmpl-extend file="__VIEW_HOME__/public/layout.tmpl"/>
+
+<tmpl-block name="header">
+    newHeader
+</tmpl-block>
+
+<tmpl-block name="body">
+    <ul>
+        <% state.forEach(function(item,index){ %>
+            <li><%= item.session %> , <%= item.expires %></li>
+        <%});%>
+    </ul>
+</tmpl-block>

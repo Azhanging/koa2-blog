@@ -1,18 +1,24 @@
 const MongoClient = require('mongodb').MongoClient;
 
-const dbConfig = require('../config/db-config');
-
-function connect(app) {
-	MongoClient.connect(dbConfig.url, (err, client) => {
-
-		if (err) {
-			console.log(err);
-			return;
-		}
-
-		console.log('client');
-
-	});
+class Mongo {
+	constructor() {
+		this.client = null;
+	}
+	//链接db
+	connect(opts) {
+		return new Promise((resolve) => {
+			MongoClient.connect(opts.url, (err, client) => {
+				if(err) {
+					throw(err);
+				}
+				//设置client对象
+				this.client = client;
+				resolve.call(this, client);
+			});
+		}).catch((e)=>{
+			console.log(e);
+		});
+	}
 }
 
-module.exports = connect;
+module.exports = Mongo;
