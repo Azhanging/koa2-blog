@@ -7,6 +7,7 @@ module.exports = function(){
 		'__ROOT__':process.path.root,
 		'__VIEW__':path.join(__dirname,'../views'),
 		'__VIEW_HOME__':path.join(__dirname,'../views/home'),
-		'__STATIC__':path.join(__dirname,'../static')
+		'__STATIC__':path.join(__dirname,'../static'),
+		'__PUBLIC__':path.join(__dirname,'../static/public')
 	};
 };

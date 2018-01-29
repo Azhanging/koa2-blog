@@ -9,5 +9,6 @@ const router = new Router();
 const indexRouter = require('./controller/index');
 router.use('/index',indexRouter.routes(),indexRouter.allowedMethods());
 
-//抛出接口
+
+
 module.exports = router;

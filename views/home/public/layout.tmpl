@@ -1,14 +1,21 @@
 <html>
     <head>
         <title>
-
+            <%= state.title || 'blue-blog' %>
         </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,target-densitydpi=device-dpi" />
+        <link rel="stylesheet" href="/css/component.css">
         <script src="/js/jquery-2.0.0.min.js"></script>
+        <tmpl-include file="__PUBLIC__/layer/layer.tmpl"></tmpl-include>
     </head>
     <body>
-        <tmpl-block name="header">
-            header
-        </tmpl-block>
-        <tmpl-block name="body"></tmpl-block>
+        <tmpl-block name="header"></tmpl-block>
+
+        <div class="row t-333 f-0_9">
+            <tmpl-block name="body"></tmpl-block>
+        </div>
+
+        <tmpl-block name="footer"></tmpl-block>
     </body>
 </html>
