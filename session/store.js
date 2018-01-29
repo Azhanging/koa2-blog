@@ -24,36 +24,56 @@ class Store {
     });
   }
 
-  set(key, ctx) {
-    const { cookies, session } = ctx,
-      { session: sessionId, status: sessionStatus } = session,
-      { field, time } = sessionConfig,
-      oldId = cookies.get(key);
+  set(key, ctx, isSet) {
 
-    //延长时间
-    if (sessionStatus) {
+    const cookies = ctx.cookies,
+      { field, time } = sessionConfig;
+
+    //设置新的session
+    if (isSet) {
       return dbConnect().then((client) => {
         client.db(sessionConfig.db)
           .collection(sessionConfig.collection)
-          .update({ [field.session]: sessionId }, {
-            $set: {
-              [field.expires]: new Date().getTime() + time
-            }
+          .insert({
+            [field.session]: cookies.get(sessionConfig.key),
+            [field.expires]: new Date().getTime() + time
           });
         client.close();
       });
-    } else {
-      const id = this.getID(24);
-      session[field.session] = id;
-      cookies.set(key, id);
-      //移除原来的session
-      return dbConnect().then((client) => {
-        client.db(sessionConfig.db)
-          .collection(sessionConfig.collection)
-          .remove({ [field.session]: oldId }, 1);
-        client.close();
-      });
+    }else{
+      //对已存在的进行处理
+      const session = ctx.session,
+        { session: sessionId, status } = session,
+        oldId = cookies.get(key);
+
+      //延长时间
+      if (status) {
+        return dbConnect().then((client) => {
+          client.db(sessionConfig.db)
+            .collection(sessionConfig.collection)
+            .update({ [field.session]: sessionId }, {
+              $set: {
+                [field.expires]: new Date().getTime() + time
+              }
+            });
+          client.close();
+        });
+      } else {
+
+        const id = this.getID(24);
+        session[field.session] = id;
+        cookies.set(key, id);
+
+        //移除原来的session
+        return dbConnect().then((client) => {
+          client.db(sessionConfig.db)
+            .collection(sessionConfig.collection)
+            .remove({ [field.session]: oldId }, 1);
+          client.close();
+        });
+      }
     }
+
   }
 
   //检查过期

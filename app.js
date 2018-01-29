@@ -12,6 +12,9 @@ const koaStaticCache = require('koa-static-cache');
 //解析post中的数据
 const bodyParser = require('koa-bodyparser');
 
+//info中间件
+const info = require('./common/info');
+
 //blue-tmpl中间件
 const tmplViews = require('blue-tmpl-views');
 
@@ -35,9 +38,9 @@ const SessionStroe = require('./session/store');
 
 //创建koa实例
 const app = new Koa();
-
 app.context.Mongo = Mongo;
 
+app.use(info());
 
 //static缓存
 app.use(koaStaticCache(path.join(__dirname, config.paths.staticPath), {

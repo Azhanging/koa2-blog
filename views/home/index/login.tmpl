@@ -1,0 +1,31 @@
+<tmpl-extend file="__VIEW_HOME__/public/layout.tmpl"/>
+
+<tmpl-block name="header">
+    <tmpl-include file="__VIEW_HOME__/public/layout-header.tmpl"></tmpl-include>
+</tmpl-block>
+
+<tmpl-block name="body">
+    <form action="" class="row valiform" method="post">
+        <div class="g-flex g-flex-ai-c pd-10"> <!--g-flex-jc-c -->
+            <div class="g-flex-1 t-r">
+                用户名：
+            </div>
+            <div class="g-flex-4">
+                <input type="text" class="g-input g-input-radius w-80" name="username">
+            </div>
+        </div>
+        <div class="g-flex g-flex-ai-c pd-10"> <!--g-flex-jc-c -->
+            <div class="g-flex-1 t-r">
+                密码：
+            </div>
+            <div class="g-flex-4">
+                <input type="password" class="g-input g-input-radius w-80" name="password">
+            </div>
+        </div>
+        <div class="row t-c">
+            <button type="submit" class="g-btn g-btn-primary">登录</button>
+            <a href="/home/index/register" class="g-btn g-btn-primary">注册</a>
+        </div>
+    </form>
+    <tmpl-include file="__PUBLIC__/valiform/valiform.tmpl"></tmpl-include>
+</tmpl-block>  

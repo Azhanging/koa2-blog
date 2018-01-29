@@ -6,6 +6,22 @@
 
 <tmpl-block name="body">
     <div class="row pd-10">
-        <%= state.body %>
+        <% if(state.ctx.session.status){ %>
+            <div class="row g-media-list">
+                <div class="row pd-10">
+                    <div class="g-media-list-img left">
+                        <img src="" alt="blue" width="60" height="60" class="g-bd-e5e"/>
+                    </div>
+                    <div class="g-media-list-content t-ellipsis t-ellipsis-2">
+                        name
+                    </div>
+                </div>
+            </div>
+        <% }else {%>
+            <div class="row t-c">
+                <a href="/home/index/login" class="g-btn g-btn-radius g-btn-primary">登录</a>
+                <a href="/home/index/register" class="g-btn g-btn-radius g-btn-danger">注册</a>
+            </div>
+        <% } %>
     </div>
 </tmpl-block>
