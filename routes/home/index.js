@@ -5,7 +5,7 @@
 const Router = require('koa-router');
 const router = new Router();
 
-//注册index控制器
+//index controller
 const indexRouter = require('./controller/index');
 router.use('/index',indexRouter.routes(),indexRouter.allowedMethods());
 

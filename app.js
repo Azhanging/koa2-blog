@@ -34,7 +34,7 @@ const router = require('./routes');
 const Mongo = require('./mongodb');
 
 //session
-const SessionStroe = require('./session/store');
+const SessionStroe = require('./session/session-store');
 
 //创建koa实例
 const app = new Koa();
@@ -44,27 +44,26 @@ app.use(info());
 
 //static缓存
 app.use(koaStaticCache(path.join(__dirname, config.paths.staticPath), {
-  maxAge: 365 * 24 * 60 * 60,
-  gzip:true
+	maxAge: 365 * 24 * 60 * 60,
+	gzip: true
 }));
 
 //引入static的中间件
 app.use(koaStatic(path.join(__dirname, config.paths.staticPath)));
-
 
 //引入bodyparser的中间件
 app.use(bodyParser());
 
 //session
 app.use(session({
-  key: sessionConfig.key,
-  field: sessionConfig.field,
-  store: new SessionStroe()
+	key: sessionConfig.key,
+	field: sessionConfig.field,
+	store: new SessionStroe()
 }));
 
 //配置blue-tmpl
 app.use(tmplViews({
-  path: config.paths.viewsPath
+	path: config.paths.viewsPath
 }));
 
 //log
@@ -74,7 +73,7 @@ app.use(logger());
 app.use(router.routes(), router.allowedMethods());
 
 app.listen(config.server.port, () => {
-  console.log(`start server,listen:${config.server.port}`);
+	console.log(`start server,listen:${config.server.port}`);
 });
 
 
