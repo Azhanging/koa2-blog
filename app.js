@@ -3,8 +3,11 @@ const Koa = require('koa');
 
 //session库模块
 const session = require('./session');
+const clearSession = require('./session/clear-session');
+
 //日志
 const logger = require('koa-logger');
+
 //static静态资源的分配
 const koaStatic = require('koa-static');
 const koaStaticCache = require('koa-static-cache');
@@ -38,7 +41,6 @@ const SessionStroe = require('./session/session-store');
 
 //创建koa实例
 const app = new Koa();
-app.context.Mongo = Mongo;
 
 app.use(info());
 
@@ -60,6 +62,9 @@ app.use(session({
 	field: sessionConfig.field,
 	store: new SessionStroe()
 }));
+
+//清除无用的session
+clearSession();
 
 //配置blue-tmpl
 app.use(tmplViews({
