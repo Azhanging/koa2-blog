@@ -3,11 +3,9 @@
 * */
 
 const dbConnect = require('../mongodb/connect');
-
 const sessionConfig = require('../config/session-config');
 
 module.exports = () => {
-	const time = 1000*60*60*2;
 	setTimeout(function () {
 		dbConnect().then((client) => {
 			client.db(sessionConfig.db)
@@ -18,6 +16,6 @@ module.exports = () => {
 					}
 				});
 		});
-		setTimeout(arguments.callee, time);
-	}, time);
+		setTimeout(arguments.callee, sessionConfig.clearTime);
+	}, sessionConfig.clearTime);
 }

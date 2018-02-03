@@ -1,14 +1,14 @@
 const path = require('path');
 const Koa = require('koa');
 
-//session库模块
+//session
 const session = require('./session');
 const clearSession = require('./session/clear-session');
 
-//日志
+//log
 const logger = require('koa-logger');
 
-//static静态资源的分配
+//static
 const koaStatic = require('koa-static');
 const koaStaticCache = require('koa-static-cache');
 
@@ -20,6 +20,9 @@ const info = require('./common/info');
 
 //blue-tmpl中间件
 const tmplViews = require('blue-tmpl-views');
+
+//validform
+const validform = require('./common/validform');
 
 //配置文件
 const config = require('./config');
@@ -33,16 +36,17 @@ tmplConfig();
 //路由
 const router = require('./routes');
 
-//mongo库模块
-const Mongo = require('./mongodb');
-
 //session
 const SessionStroe = require('./session/session-store');
 
 //创建koa实例
 const app = new Koa();
 
+//info的中间件
 app.use(info());
+
+//验证中间件
+app.use(validform());
 
 //static缓存
 app.use(koaStaticCache(path.join(__dirname, config.paths.staticPath), {

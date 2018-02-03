@@ -1,4 +1,4 @@
-//链接数据库
+//connent database
 const Mongo = require('./index');
 
 const dbConfig = require('../config/db-config');

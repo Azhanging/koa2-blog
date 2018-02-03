@@ -1,0 +1,34 @@
+<tmpl-extend file="__VIEW_HOME__/public/layout.tmpl"/>
+
+<tmpl-block name="header">
+    <tmpl-include file="__VIEW_HOME__/public/layout-header.tmpl"></tmpl-include>
+</tmpl-block>
+
+<tmpl-block name="body">
+    <div class="row pd-10">
+        <form action="">
+
+            <div class="row mg-b-10">
+                <label>
+                    <span class="g-label">title:</span>
+                    <input type="text" class="g-input" placeholder="title">
+                </label>
+            </div>
+
+            <div class="row mg-b-10">
+                <label>
+                    <span class="g-label">author:</span>
+                    <input type="text" class="g-input" placeholder="author">
+                </label>
+            </div>
+
+            <div class="row mg-b-10">
+                <label class="v-t">
+                    <span class="g-label">content:</span>
+                    <textarea type="text" class="g-input w-70" placeholder="content"></textarea>
+                </label>
+            </div>
+
+        </form>
+    </div>
+</tmpl-block>

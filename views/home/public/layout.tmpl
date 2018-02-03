@@ -12,10 +12,15 @@
     <body>
         <tmpl-block name="header"></tmpl-block>
 
+        <!--body-->
         <div class="row t-333 f-0_9">
             <tmpl-block name="body"></tmpl-block>
+            <div class="row h-80"></div>
         </div>
 
-        <tmpl-block name="footer"></tmpl-block>
+        <!--footer-->
+        <tmpl-block name="footer">
+            <tmpl-include file="__VIEW_HOME__/public/layout-footer.tmpl"></tmpl-include>
+        </tmpl-block>
     </body>
 </html>

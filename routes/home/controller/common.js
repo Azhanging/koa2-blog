@@ -9,26 +9,26 @@ const viewName = '/home/common';
 
 /*register*/
 router.get('/register', async (ctx, next) => {
-	await ctx.render(`${viewName}/register`, {});
+  await ctx.render(`${viewName}/register`, {});
 }).post('/register', async (ctx, next) => {
-	const status = await commonModel['register'](ctx);
-	if(status) {
-		ctx.body = ctx.$error('has username');
-	} else {
-		ctx.body = ctx.$success('register success', '/home/index');
-	}
+  const validStatus = await commonModel['register'](ctx);
+  if (!validStatus.status) {
+    ctx.body = ctx.$error(validStatus.info);
+  } else {
+    ctx.body = ctx.$success('register success', '/home/index');
+  }
 });
 
 /*login*/
 router.get('/login', async (ctx, next) => {
-	await ctx.render(`${viewName}/login`, {});
+  await ctx.render(`${viewName}/login`, {});
 }).post('/login', async (ctx, next) => {
-	const status = await commonModel['login'](ctx);
-	if(status) {
-		ctx.body = ctx.$success('login success', '/home/index');
-	} else {
-		ctx.body = ctx.$error('login error');
-	}
+  const status = await commonModel['login'](ctx);
+  if (status) {
+    ctx.body = ctx.$success('login success', '/home/index');
+  } else {
+    ctx.body = ctx.$error('login error');
+  }
 });
 
 module.exports = router;

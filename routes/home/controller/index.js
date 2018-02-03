@@ -9,10 +9,9 @@ const viewName = '/home/index';
 
 /*home*/
 router.get('/', async (ctx, next) => {
-	await ctx.render(`${viewName}/index`, {
-		body: 'index',
-		isLogin: JSON.stringify(ctx.session) != "{}"
-	});
+  await ctx.render(`${viewName}/index`, {
+    body: 'index'
+  });
 });
 
 module.exports = router;

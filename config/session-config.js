@@ -1,3 +1,7 @@
+/*
+* session config
+* */
+
 module.exports = {
 	db: 'blog',
 	collection: 'session',
@@ -7,5 +11,6 @@ module.exports = {
 		expires: 'expires',
 		member_id: 'member_id'
 	},
-	time: 1000 * 60 * 60 * 24 * 1
+	time: 1000 * 60 * 60 * 24 * 1,
+	clearTime: 1000 * 60 * 60 * 2
 };

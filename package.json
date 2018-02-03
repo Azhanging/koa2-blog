@@ -3,8 +3,8 @@
     "dev": "node app"
   },
   "devDependencies": {
-    "blue-tmpl": "^1.0.14",
-    "blue-tmpl-views": "^1.0.1",
+    "blue-tmpl": "^1.0.15",
+    "blue-tmpl-views": "^1.0.5",
     "koa": "^2.4.1",
     "koa-bodyparser": "^4.2.0",
     "koa-logger": "^3.1.0",
