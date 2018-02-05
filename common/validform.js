@@ -22,6 +22,7 @@ class Validform {
       fn.each(valiType, (valids, typeKey) => {
         if (!(dataKey == typeKey)) return;
         fn.each(valids, (valid, index) => {
+          if (!result.status) return;
           let validata = null;
           if (valid.type instanceof RegExp) {
             validata = valid.type;
@@ -60,7 +61,7 @@ const data = {
 
 module.exports = () => {
   return async (ctx, next) => {
-    if (ctx.valiform) return next();
+    if (ctx.validform) return next();
     ctx.app.context.validform = new Validform();
     return next();
   }

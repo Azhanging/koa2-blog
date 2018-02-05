@@ -11,11 +11,11 @@ const viewName = '/home/common';
 router.get('/register', async (ctx, next) => {
   await ctx.render(`${viewName}/register`, {});
 }).post('/register', async (ctx, next) => {
-  const validStatus = await commonModel['register'](ctx);
-  if (!validStatus.status) {
-    ctx.body = ctx.$error(validStatus.info);
+  const result = await commonModel['register'](ctx);
+  if (!result.status) {
+    ctx.body = ctx.$error(result.info);
   } else {
-    ctx.body = ctx.$success('register success', '/home/index');
+    ctx.body = ctx.$success(result.info, '/home/index');
   }
 });
 
@@ -23,11 +23,11 @@ router.get('/register', async (ctx, next) => {
 router.get('/login', async (ctx, next) => {
   await ctx.render(`${viewName}/login`, {});
 }).post('/login', async (ctx, next) => {
-  const status = await commonModel['login'](ctx);
-  if (status) {
-    ctx.body = ctx.$success('login success', '/home/index');
+  const result = await commonModel['login'](ctx);
+  if (!result.status) {
+    ctx.body = ctx.$error(result.info);
   } else {
-    ctx.body = ctx.$error('login error');
+    ctx.body = ctx.$success(result.info, '/home/index');
   }
 });
 

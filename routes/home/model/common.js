@@ -47,14 +47,41 @@ exports.register = (ctx) => {
 exports.login = (ctx) => {
   const body = ctx.request.body,
     { username, password } = body;
+
+  const valid = ctx.validform.valid(body, {
+    username: [{
+      type: '*',
+      info: 'username is not null'
+    }],
+    password: [{
+      type: '*',
+      info: 'password is not null'
+    }, {
+      type: /\d{4,8}/,
+      info: 'password length in 4 - 8'
+    }]
+  });
+
+  //验证有误
+  if (!valid.status) {
+    return valid;
+  }
+
   return dbConnect().then((client) => {
     const collection = client.db('blog').collection('member');
     return collection.findOne({ username }).then(async (state) => {
       //password error
       if (!state || (state.password !== password.trim())) {
-        return false;
+        return {
+          status:false,
+          info:'password is error'
+        };
       } else {
-        return await ctx.$sessionStore.set(sessionConfig.key, ctx, true);
+        await ctx.$sessionStore.set(sessionConfig.key, ctx, true);
+        return {
+          status:true,
+          info:'login success'
+        }
       }
     });
   });

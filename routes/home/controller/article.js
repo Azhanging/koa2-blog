@@ -18,7 +18,12 @@ router.get('/publish', async (ctx, next) => {
     body: 'index'
   });
 }).post('/publish', async (ctx, next) => {
-  const { body } = ctx.request;
+  const result = await articleModel['publish'](ctx);
+  if(!result.status){
+    ctx.body = ctx.$error(result.info);
+  }else{
+    ctx.body = ctx.$success(result.info,'/home/index');
+  }
 });
 
 module.exports = router;
