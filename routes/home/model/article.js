@@ -2,6 +2,9 @@ const dbConnect = require('./../../../mongodb/connect');
 
 const sessionConfig = require('./../../../config/session-config');
 
+const dbConnect = require('../mongodb/connect');
+
+const dbConfig = require('../config/db-config');
 
 exports.publish = (ctx) => {
   const { body } = ctx.request;
@@ -20,8 +23,13 @@ exports.publish = (ctx) => {
     }]
   });
 
-  //验证有误
+  //valid error
   if ( !valid.status ) {
     return valid;
   }
+
+  return dbConnect()
+    .db(dbConfig.db)
+    .collection('article')
+    .insert(body);
 }

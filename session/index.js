@@ -8,13 +8,13 @@ module.exports = (opts = {}) => {
 		if(!ctx.app.context.$store) {
 			ctx.app.context.$sessionStore = store;
 		}
-		//初始化
+		//init session
 		if(!ctx.session) {
 			ctx.session = {};
 		}
 		const cookies = ctx.cookies,
 			id = cookies.get(key);
-		//如果存在session的id，查看session是否过期了
+		//if has session id , check session expires
 		if(id) {
 			//查看id是否过期了
 			const session = await store.get(id);
