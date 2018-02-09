@@ -14,7 +14,7 @@ router.use('/index', login(), user(), indexRouter.routes(), indexRouter.allowedM
 
 //article controller
 const articleRouter = require('./controller/article');
-router.use('/article',articleRouter.routes(), articleRouter.allowedMethods());
+router.use('/article', login(), user(), articleRouter.routes(), articleRouter.allowedMethods());
 
 //common controller
 const commonRouter = require('./controller/common');

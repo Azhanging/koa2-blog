@@ -9,9 +9,8 @@ const viewName = '/home/index';
 
 /*home*/
 router.get('/', async (ctx, next) => {
-  await ctx.render(`${viewName}/index`, {
-    body: 'index'
-  });
+  var result = await indexModel['index'](ctx);
+  await ctx.render(`${viewName}/index`, result);
 });
 
 module.exports = router;

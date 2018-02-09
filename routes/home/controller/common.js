@@ -9,7 +9,7 @@ const viewName = '/home/common';
 
 /*register*/
 router.get('/register', async (ctx, next) => {
-  await ctx.render(`${viewName}/register`, {});
+  await ctx.render(`${viewName}/register`);
 }).post('/register', async (ctx, next) => {
   const result = await commonModel['register'](ctx);
   if (!result.status) {
@@ -21,6 +21,7 @@ router.get('/register', async (ctx, next) => {
 
 /*login*/
 router.get('/login', async (ctx, next) => {
+  console.log(ctx.cookies.get('NODESESSID'));
   await ctx.render(`${viewName}/login`, {});
 }).post('/login', async (ctx, next) => {
   const result = await commonModel['login'](ctx);

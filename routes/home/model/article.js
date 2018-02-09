@@ -1,10 +1,10 @@
-const dbConnect = require('./../../../mongodb/connect');
+const dbConnect = require('../../../mongodb/connect');
 
-const sessionConfig = require('./../../../config/session-config');
+const sessionConfig = require('../../../config/session-config');
 
-const dbConnect = require('../mongodb/connect');
+const dbConfig = require('../../../config/db-config');
 
-const dbConfig = require('../config/db-config');
+const primaryKey = require('../../../mongodb/primary-key.js');
 
 exports.publish = (ctx) => {
   const { body } = ctx.request;
@@ -24,12 +24,24 @@ exports.publish = (ctx) => {
   });
 
   //valid error
-  if ( !valid.status ) {
+  if (!valid.status) {
     return valid;
   }
 
-  return dbConnect()
-    .db(dbConfig.db)
-    .collection('article')
-    .insert(body);
+  return dbConnect().then(async (client) => {
+    const primaryId = await primaryKey({
+      collection: 'article'
+    })
+
+    return client.db(dbConfig.db)
+      .collection('article')
+      .insert(Object.assign(body, {
+        _id: primaryId,
+        ['member_id']: ctx.user._id
+      }))
+      .then(() => {
+        valid.info = 'publish success';
+        return valid;
+      });
+  })
 }

@@ -24,7 +24,7 @@ class Store {
     });
   }
 
-  /*set session ,update session expores,drop timeout session*/
+  /*set session ,upexdate session expores,drop timeout session*/
 
   set(key, ctx, isSet) {
 
@@ -48,6 +48,10 @@ class Store {
 
           collection.remove({
             [field.member_id]: user._id
+          });
+
+          collection.remove({
+            [field.session]: cookies.get(sessionConfig.key)
           });
 
           collection.insert({

@@ -39,26 +39,6 @@ class Validform {
   }
 }
 
-/*const valiType = {
-  title: [{
-    type: '*',
-    info: 'input something'
-  },{
-    type: 'n',
-    info: 'input number'
-  }],
-  aother:[{
-    type:'m',
-    info:'moblie'
-  }]
-};
-
-const data = {
-  title: '123456',
-  aother: 456,
-  content: ''
-};*/
-
 module.exports = () => {
   return async (ctx, next) => {
     if (ctx.validform) return next();

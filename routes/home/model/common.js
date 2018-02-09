@@ -36,8 +36,8 @@ exports.register = (ctx) => {
         });
       }
       return {
-        status: state,
-        info: state ? 'register success' : 'has username'
+        status: !(state),
+        info: state ? 'has username' : 'register success'
       };
     });
   });
@@ -73,14 +73,14 @@ exports.login = (ctx) => {
       //password error
       if (!state || (state.password !== password.trim())) {
         return {
-          status:false,
-          info:'password is error'
+          status: false,
+          info: 'password is error'
         };
       } else {
         await ctx.$sessionStore.set(sessionConfig.key, ctx, true);
         return {
-          status:true,
-          info:'login success'
+          status: true,
+          info: 'login success'
         }
       }
     });

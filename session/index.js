@@ -5,7 +5,7 @@ module.exports = (opts = {}) => {
 	//获取配置信息
 	const { key, store, field } = opts;
 	return async (ctx, next) => {
-		if(!ctx.app.context.$store) {
+		if(!ctx.app.context.$sessionStore) {
 			ctx.app.context.$sessionStore = store;
 		}
 		//init session

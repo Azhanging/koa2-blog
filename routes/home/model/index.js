@@ -4,12 +4,13 @@ const sessionConfig = require('./../../../config/session-config');
 
 //index model
 exports.index = (ctx) => {
-	return dbConnect().then((client) => {
-		const state = client.db('blog')
-			.collection('session')
-			.find({})
-			.toArray();
-		client.close();
-		return state;
-	});
+  return dbConnect().then(async (client) => {
+    const result = await client.db('blog')
+      .collection('article')
+      .find({ member_id: ctx.user._id })
+      .toArray();
+    return {
+      articleLists: result
+    }
+  });
 };

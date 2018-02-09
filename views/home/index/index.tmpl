@@ -6,22 +6,53 @@
 
 <tmpl-block name="body">
     <div class="row pd-10">
-        <% if(this.isLogin(state.$ctx)){ %>
+        <% if(this.isLogin(this.$ctx)){ %>
             <div class="row g-media-list">
                 <div class="g-media-list-img left">
                     <img src="" alt="blue" width="60" height="60" class="g-bd-e5e"/>
                 </div>
                 <div class="g-media-list-content t-ellipsis t-ellipsis-2">
                     <div class="row">
-                        username:<%= state.$ctx.user.username %>
+                        username:<%= this.$ctx.user.username %>
                     </div>
                 </div>
             </div>
         <% } else { %>
             <div class="row t-c">
-                <a href="/home/index/login" class="g-btn g-btn-radius g-btn-primary">登录</a>
-                <a href="/home/index/register" class="g-btn g-btn-radius g-btn-danger">注册</a>
+                <a href="/home/common/login" class="g-btn g-btn-radius g-btn-primary">登录</a>
+                <a href="/home/common/register" class="g-btn g-btn-radius g-btn-danger">注册</a>
             </div>
         <% } %>
+
+        <!--列表-->
+
+        <div class="g-panel g-panel-primary mg-t-10 border-radius">
+            <div class="g-panel-title t-white">
+                <span>my blog</span>
+            </div>
+            <div class="g-panel-body">
+                <% if(state.articleLists && state.articleLists.length){ %>
+                    <ul class="reset-ul reset-all-a">
+                        <% state.articleLists.forEach(function(item){ %>
+                          <li>
+                              <div class="row">
+                                  <%= item.title %>
+                              </div>
+                              <div class="row">
+                                  <%= item.author %>
+                              </div>
+                              <div class="row">
+                                  <%= item.content %>
+                              </div>
+                          </li>
+                        <% }); %>
+                    </ul>
+                <% } else { %>
+                    <div class="row t-c">
+                        not blog
+                    </div>
+                <% } %>
+            </div>
+        </div>
     </div>
 </tmpl-block>
