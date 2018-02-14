@@ -7,17 +7,11 @@
 <tmpl-block name="body">
     <div class="row pd-10">
         <form action="" method="post" class="valiform">
+
             <div class="row mg-b-10">
                 <label>
                     <span class="g-label">title:</span>
                     <input type="text" class="g-input" placeholder="title" name="title" value="title"/>
-                </label>
-            </div>
-
-            <div class="row mg-b-10">
-                <label>
-                    <span class="g-label">author:</span>
-                    <input type="text" class="g-input" placeholder="author" name="author" value="author"/>
                 </label>
             </div>
 
@@ -27,9 +21,11 @@
                     <textarea type="text" class="g-input w-70" placeholder="content" name="content">content</textarea>
                 </label>
             </div>
+
             <div class="row t-c">
                 <button type="submit" class="g-btn g-btn-primary">submit</button>
             </div>
+
         </form>
     </div>
     <tmpl-include file="__PUBLIC__/valiform/valiform.tmpl"></tmpl-include>

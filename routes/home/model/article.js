@@ -13,10 +13,6 @@ exports.publish = (ctx) => {
       type: '*',
       info: 'title is not null'
     }],
-    author: [{
-      type: '*',
-      info: 'author is not null'
-    }],
     content: [{
       type: "*",
       info: "content is not null"
@@ -24,24 +20,31 @@ exports.publish = (ctx) => {
   });
 
   //valid error
-  if (!valid.status) {
+  if ( !valid.status ) {
     return valid;
   }
 
   return dbConnect().then(async (client) => {
     const primaryId = await primaryKey({
       collection: 'article'
-    })
+    });
 
-    return client.db(dbConfig.db)
+    const result = await client.db(dbConfig.db)
       .collection('article')
       .insert(Object.assign(body, {
         _id: primaryId,
+        author: ctx.user.username,
+        create_time: new Date().getTime(),
+        is_del: 0,
         ['member_id']: ctx.user._id
       }))
       .then(() => {
         valid.info = 'publish success';
         return valid;
       });
+
+    client.close();
+
+    return result;
   })
 }

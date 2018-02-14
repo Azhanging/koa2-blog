@@ -37,6 +37,9 @@ module.exports = (opts) => {
     }, {
       new: true
     });
+
+    client.close();
+
     return primary.value[primaryKey.value];
   });
 };

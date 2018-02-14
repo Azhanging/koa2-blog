@@ -1,11 +1,11 @@
 <div class="g-flex pd-10 g-bg-primary g-bg-white g-flex-ai-c">
     <div class="g-flex-1">
-        <a href="<%= state.headerTitle || 'javscript:history.go(-1);' %>">
+        <a href="<%= state.headerTitle || 'javascript:history.go(-1);' %>">
             <span class="g-arrow g-arrow-l g-arrow-small bd-white"></span>
         </a>
     </div>
     <div class="g-flex-4 t-hide t-white t-c">
-        <%= state.headerTitle || 'blue-blog' %>
+        <%= state.headerTitle || this.$ctx.user ? this.$ctx.user.username : 'all' + '-blog' %>
     </div>
     <div class="g-flex-1">
 

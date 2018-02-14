@@ -19,8 +19,8 @@
             </div>
         <% } else { %>
             <div class="row t-c">
-                <a href="/home/common/login" class="g-btn g-btn-radius g-btn-primary">登录</a>
-                <a href="/home/common/register" class="g-btn g-btn-radius g-btn-danger">注册</a>
+                <a href="/home/common/login" class="g-btn g-btn-radius g-btn-primary">login</a>
+                <a href="/home/common/register" class="g-btn g-btn-radius g-btn-danger">register</a>
             </div>
         <% } %>
 
@@ -28,31 +28,31 @@
 
         <div class="g-panel g-panel-primary mg-t-10 border-radius">
             <div class="g-panel-title t-white">
-                <span>my blog</span>
+                <span>
+                    <%= this.$ctx.user ? 'my' : 'all'%> blog
+                </span>
             </div>
-            <div class="g-panel-body">
-                <% if(state.articleLists && state.articleLists.length){ %>
-                    <ul class="reset-ul reset-all-a">
-                        <% state.articleLists.forEach(function(item){ %>
-                          <li>
-                              <div class="row">
-                                  <%= item.title %>
-                              </div>
-                              <div class="row">
-                                  <%= item.author %>
-                              </div>
-                              <div class="row">
+            <% if(state.articleLists && state.articleLists.length){ %>
+                <ul class="reset-ul reset-all-a g-link-666">
+                    <% state.articleLists.forEach(function(item){ %>
+                        <li class="pd-15">
+                            <a href="<%= item._id %>">
+                                <div class="row">
+                                    <span class="f-b"><%= item.title %></span>
+                                    <span class="f-0_7"><%= item.author %></span>
+                                </div>
+                                <div class="row">
                                   <%= item.content %>
-                              </div>
-                          </li>
-                        <% }); %>
-                    </ul>
-                <% } else { %>
-                    <div class="row t-c">
-                        not blog
-                    </div>
-                <% } %>
-            </div>
+                                </div>
+                            </a>
+                        </li>
+                    <% }); %>
+                </ul>
+            <% } else { %>
+                <div class="row t-c pd-15">
+                    not blog
+                </div>
+            <% } %>
         </div>
     </div>
 </tmpl-block>

@@ -15,6 +15,9 @@ module.exports = () => {
 						$lt: new Date().getTime()
 					}
 				});
+
+      client.close();
+
 		});
 		setTimeout(arguments.callee, sessionConfig.clearTime);
 	}, sessionConfig.clearTime);

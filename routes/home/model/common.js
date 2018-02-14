@@ -77,7 +77,7 @@ exports.login = (ctx) => {
           info: 'password is error'
         };
       } else {
-        await ctx.$sessionStore.set(sessionConfig.key, ctx, true);
+        await ctx.$sessionStore.set(ctx, true);
         return {
           status: true,
           info: 'login success'

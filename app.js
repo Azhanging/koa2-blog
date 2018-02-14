@@ -5,6 +5,9 @@ const Koa = require('koa');
 const session = require('./session');
 const clearSession = require('./session/clear-session');
 
+//user
+const user = require('./common/user');
+
 //log
 const logger = require('koa-logger');
 
@@ -67,6 +70,8 @@ app.use(session({
 	store: new SessionStroe()
 }));
 
+app.use(user());
+
 //清除无用的session
 clearSession();
 
@@ -78,7 +83,7 @@ app.use(tmplViews({
 //log
 app.use(logger());
 
-//路由模块
+//路由
 app.use(router.routes(), router.allowedMethods());
 
 app.listen(config.server.port, () => {
